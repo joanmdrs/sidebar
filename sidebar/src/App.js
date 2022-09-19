@@ -16,18 +16,18 @@ function App(){
     <div className="App">
       <div className='sidebar_container'>
         <div className='sidebar'>
-          {/* <motion.div 
+          <motion.div 
             whileHover={{
-              scale : 1.2,
-              rotate : 180,
-              backgroundColor: "rgba(255, 255, 255, 0.3)",
-              backdropFilter: "blur(3.5px)",
-              WebkitBackdropFilter: "blur(3.5px)",
+              scale:1.2,
+              rotate:180,
+              backgroundColor:"rgba(255, 255, 255, 0.3)",
+              backdropFilter:"blur(3.5px)",
+              WebkitBackdropFilter:"blur(3.5px)",
               border: "1px solid rgba(255, 255, 255, 0.18)",
             }}
             className='lines_icon'>
             <TocRoundedIcon/>
-          </motion.div> */}
+          </motion.div>
           <div className='profile'>
             <img 
               alt="img profile"
