@@ -1,0 +1,40 @@
+.App {
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  display: flex;
+}
+
+.body_container {
+  flex: 1;
+  background-color: blue;
+}
+
+.sidebar_container {
+  background-color: red;
+  height: 100vh;
+  position: sticky ;
+  top:0;
+  left: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sidebar {
+  display: flex;
+  width: 14rem;
+  height: 90%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 15px;
+}
+
+.lines_icon {
+  display: flex;
+  align-self: flex-end;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
